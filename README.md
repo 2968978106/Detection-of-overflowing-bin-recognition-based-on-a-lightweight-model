@@ -1,2 +1,9 @@
-# Detection-of-overflowing-bin-recognition-based-on-a-lightweight-model
-Project members: Ren Leshan, Yu Dingyi, Du Haixin, Gong Chenfeng, Mou Shiding
+# 基于轻量型模型的垃圾桶满溢识别检测
+
+项目成员：任乐山，于丁怡，杜海欣，宫晨峰，牟仕鼎
+
+## 项目简介：
+
+本项目共分为三大部分：轻量型检测模型的对比实验，基于生成模型的数据增强，在摄像头芯片上的模型部署及应用。
+
+其中，在第一部分轻量型检测模型的对比实验中，项目组成员首先研读了论文“基于轻量型卷积神经网络的垃圾桶满溢识别及应用”，并对相关代码进行了解析。相关论文、代码及解析笔记在文件“
