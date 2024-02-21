@@ -49,4 +49,4 @@
 
 ### 垃圾桶目标检测模型的云部署
 
-本部分中，项目组成员选取yolov8来作为要部署的目标检测模型，并使用垃圾桶检测数据集进行训练，效果最好的模型保存为**best.pt**。云主机选择腾讯云中的轻量应用服务器，并进行了简单配置。将yolov8模型制作成rest api以及模型部署，发送POST请求的相关脚本均可在`ultralytics-main`文件夹中找到。详细的falsk和rest api的原理介绍、yolov8制作成rest api的相关流程和代码解析、云服务的配置、模型部署以及发送POST请求的具体细节可以参考`垃圾桶满溢检测云部署`中的项目笔记，也可以查看百度AiStudio项目[垃圾桶满溢检测模型的云部署](https://aistudio.baidu.com/projectdetail/7477822)。
+本部分中，项目组成员选取yolov8来作为要部署的目标检测模型，并使用垃圾桶检测数据集进行训练，效果最好的模型保存为**best.pt**（best.pt[下载](https://pan.baidu.com/s/1xcGWmO9yEiVgF5nCke0k-A?pwd=1234)）。云主机选择腾讯云中的轻量应用服务器，并进行了简单配置。将yolov8模型制作成rest api以及模型部署，发送POST请求的相关脚本均可在`ultralytics-main`文件夹中找到。详细的falsk和rest api的原理介绍、yolov8制作成rest api的相关流程和代码解析、云服务的配置、模型部署以及发送POST请求的具体细节可以参考`垃圾桶满溢检测云部署`中的项目笔记，也可以查看百度AiStudio项目[垃圾桶满溢检测模型的云部署](https://aistudio.baidu.com/projectdetail/7477822)。
