@@ -45,8 +45,8 @@
 
 ### 基于生成模型的数据增强
 
-首先，项目组成员使用了DDMP-去噪扩散概率模型对原始数据进行扩充。随后，在为了生成不同天气的及光影状况下的图片数据，项目组成员学习了CycleGAN以及stable diffusion的相关原理与方法，最终生成了雪天、雨天以及夜晚的垃圾桶图片数据。同时，项目组成员还采用了一种基于opencv的雨天模拟算法，在原始数据集上生成了雨天特效。最后，项目组成员使用百度EasyDL来对上述生成的数据集进行标注。详细内容可以查看百度AiStudio项目[基于生成式模型的数据增强实验报告](https://aistudio.baidu.com/projectdetail/7405954?contributionType=1)
+首先，项目组成员使用了DDMP-去噪扩散概率模型对原始数据进行扩充。随后，在为了生成不同天气的及光影状况下的图片数据，项目组成员学习了CycleGAN以及stable diffusion的相关原理与方法，最终生成了雪天、雨天以及夜晚的垃圾桶图片数据。同时，项目组成员还采用了一种基于opencv的雨天模拟算法，在原始数据集上生成了雨天特效。最后，项目组成员使用百度EasyDL来对上述生成的数据集进行标注。详细内容可以查看百度AiStudio项目[基于生成式模型的数据增强实验报告](https://aistudio.baidu.com/projectdetail/7405954?contributionType=1)。
 
 ### 垃圾桶目标检测模型的云部署
 
-
+本部分中，项目组成员选取yolov8来作为要部署的目标检测模型，并使用垃圾桶检测数据集进行训练，效果最好的模型保存为**best.pt**。云主机选择腾讯云中的轻量应用服务器，并进行了简单配置。将yolov8模型制作成rest api以及模型部署，发送POST请求的相关脚本均可在`ultralytics-main`文件夹中找到。详细的falsk和rest api的原理介绍、yolov8制作成rest api的相关流程和代码解析、云服务的配置、模型部署以及发送POST请求的具体细节可以参考`垃圾桶满溢检测云部署`中的项目笔记，也可以查看百度AiStudio项目[垃圾桶满溢检测模型的云部署](https://aistudio.baidu.com/projectdetail/7477822)。
